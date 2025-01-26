@@ -1,13 +1,11 @@
+import NavBarOptions from "./NavBarOptions"
+
 function NavBar() {
     return (
         <>
-        <div className="flex bg-black w-full justify-between p-3">
-            <div className="basis-1/10"><a className="text-white p-3">Aayush Karki</a></div>
-            <div className="flex space-x-3">
-                <div className="bg-blue-950"><a className="text-white p-3">Resume</a></div>
-                <div className="bg-blue-950"><a className="text-white p-3">Projects</a></div>
-                <div className="bg-blue-950"><a className="text-white p-3">Contact</a></div>
-            </div>
+        <div className="flex bg-slate-800 w-full justify-between p-3">
+            <a className="flex items-center text-white text-2xl p-3">Aayush Karki</a>
+            <NavBarOptions></NavBarOptions>
         </div>
         </>
     )
