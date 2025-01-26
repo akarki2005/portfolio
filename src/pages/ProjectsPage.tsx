@@ -1,5 +1,7 @@
 function ProjectsPage() {
-    return
+    return (
+        <p>Projects</p>
+    )
 }
 
 export default ProjectsPage

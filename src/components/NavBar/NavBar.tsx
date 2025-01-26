@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"
 import NavBarOptions from "./NavBarOptions"
 
 function NavBar() {
+
     return (
         <>
         <div className="flex bg-slate-800 w-full justify-between p-3">
-            <a className="flex items-center text-white text-2xl p-2">Aayush Karki</a>
+            <Link to="/" className="flex items-center text-white text-2xl p-2">Aayush Karki</Link>
             <NavBarOptions></NavBarOptions>
         </div>
         </>

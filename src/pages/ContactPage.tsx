@@ -1,5 +1,7 @@
 function ContactPage() {
-    return 
+    return (
+        <p>Contact</p>
+    )
 }
 
 export default ContactPage
