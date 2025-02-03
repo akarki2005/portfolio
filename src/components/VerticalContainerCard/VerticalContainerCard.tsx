@@ -10,7 +10,7 @@ interface Props {
 
 function VerticalContainerCard(props: Props) {
     return (
-        <div className="flex flex-col h-fit bg-slate-800 rounded-xl m-4 w-2/5 text-white">
+        <div className="flex flex-col h-fit bg-slate-800 rounded-xl m-4 w-1/3 text-white">
             <VerticalContainerCardTitle title={props.title}></VerticalContainerCardTitle>
             <VerticalContainerCardContents contents={props.contents}></VerticalContainerCardContents>
         </div>
