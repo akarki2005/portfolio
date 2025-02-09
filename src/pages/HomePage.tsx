@@ -13,11 +13,11 @@ function HomePage() {
     ]
 
     const Languages = [
-        ["/src/assets/images/javalogo.png", "", "Java"],
-        ["/src/assets/images/pythonlogo.png", "", "Python"],
+        ["/src/assets/images/javalogo.png", "https://www.java.com/en/", "Java"],
+        ["/src/assets/images/pythonlogo.png", "https://www.python.org/", "Python"],
         ["/src/assets/images/clogo.png", "", "C"],
         ["/src/assets/images/csharplogo.png", "", "C#"],
-        ["/src/assets/images/typescriptlogo.png", "", "Typescript"],
+        ["/src/assets/images/typescriptlogo.png", "https://www.typescriptlang.org/", "Typescript"],
     ]
 
     return (
