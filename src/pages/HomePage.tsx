@@ -1,5 +1,4 @@
 import InfoCard from "../components/InfoCard/InfoCard"
-import ITLCard from "../components/ITLCard/ITLCard"
 import ArrayCard from "../components/ArrayCard/ArrayCard"
 import HorizontalContainerCard from "../components/HorizontalContainerCard/HorizontalContainerCard"
 
