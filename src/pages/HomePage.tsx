@@ -5,24 +5,24 @@ import HorizontalContainerCard from "../components/HorizontalContainerCard/Horiz
 function HomePage() {
 
     const Technologies = [
-        ["/src/assets/images/react.png", "https://react.dev/", "React"],
-        ["/src/assets/images/tailwind.png", "https://tailwindcss.com/", "Tailwind"],
-        ["/src/assets/images/godot.png", "https://godotengine.org/", "Godot"],
-        ["/src/assets/images/unity.png", "https://unity.com/", "Unity"],
-        ["/src/assets/images/pandas.ico", "https://pandas.pydata.org/", "Pandas"]
+        ["./assets/images/react.png", "https://react.dev/", "React"],
+        ["./assets/images/tailwind.png", "https://tailwindcss.com/", "Tailwind"],
+        ["./assets/images/godot.png", "https://godotengine.org/", "Godot"],
+        ["./assets/images/unity.png", "https://unity.com/", "Unity"],
+        ["./assets/images/pandas.ico", "https://pandas.pydata.org/", "Pandas"]
     ]
 
     const Languages = [
-        ["/src/assets/images/javalogo.png", "https://www.java.com/en/", "Java"],
-        ["/src/assets/images/pythonlogo.png", "https://www.python.org/", "Python"],
-        ["/src/assets/images/clogo.png", "", "C"],
-        ["/src/assets/images/csharplogo.png", "", "C#"],
-        ["/src/assets/images/typescriptlogo.png", "https://www.typescriptlang.org/", "Typescript"],
+        ["./assets/images/javalogo.png", "https://www.java.com/en/", "Java"],
+        ["./assets/images/pythonlogo.png", "https://www.python.org/", "Python"],
+        ["./assets/images/clogo.png", "", "C"],
+        ["./assets/images/csharplogo.png", "", "C#"],
+        ["./assets/images/typescriptlogo.png", "https://www.typescriptlang.org/", "Typescript"],
     ]
 
     const Projects = [
-        ["/src/assets/images/Barn_Burner_title_screen.png", "Barn Burner: A retro multiplayer air hockey game developed within Godot", "https://github.com/akarki2005/barn-burner", "Github"],
-        ["/src/assets/images/Farmsburner_title_screen.png", "Farmsburner: A farming game incorporating real-world weather data, made with Java", "https://github.com/akarki2005/FarmsBurner", "Github"]
+        ["./assets/images/Barn_Burner_title_screen.png", "Barn Burner: A retro multiplayer air hockey game developed within Godot", "https://github.com/akarki2005/barn-burner", "Github"],
+        ["./assets/images/Farmsburner_title_screen.PNG", "Farmsburner: A farming game incorporating real-world weather data, made with Java", "https://github.com/akarki2005/FarmsBurner", "Github"]
     ]
 
     return (

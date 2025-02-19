@@ -3,7 +3,7 @@ import VerticalContainerCard from "../components/VerticalContainerCard/VerticalC
 function ProjectsPage() {
     const BarnBurnerInfo = [
         "Barn Burner",
-        "/src/assets/images/Barn_Burner_title_screen.png",
+        "./assets/images/Barn_Burner_title_screen.png",
         "A multiplayer air hockey game developed in the Godot game engine.",
         "Github",
         "https://github.com/akarki2005/barn-burner"
@@ -11,7 +11,7 @@ function ProjectsPage() {
 
     const FarmsburnerInfo = [
         "Farmsburner",
-        "/src/assets/images/Farmsburner_title_screen.png",
+        "./assets/images/Farmsburner_title_screen.PNG",
         "A farming simulation game incorporating real-world weather data, made with Java.",
         "Github",
         "https://github.com/akarki2005/FarmsBurner"
@@ -19,7 +19,7 @@ function ProjectsPage() {
 
     const PortfolioInfo = [
         "Portfolio Website (this one!)",
-        "/src/assets/images/portfoliowebsite.png",
+        "./assets/images/portfoliowebsite.png",
         "My personal portfolio website, developed using React and Tailwind.",
         "Github",
         "https://github.com/akarki2005/portfolio"
@@ -27,7 +27,7 @@ function ProjectsPage() {
 
     const IntersectionInfo = [
         "Intersection",
-        "/src/assets/images/INT-icon.png",
+        "./assets/images/INT-icon.png",
         "A game about traffic management, developed in Unity using C#.",
         "Coming soon (fall 2025)",
         ""
@@ -35,7 +35,7 @@ function ProjectsPage() {
 
     const SwoleStatsInfo = [
         "Swole Stats",
-        "/src/assets/images/dumbell.jpg",
+        "./assets/images/dumbell.jpg",
         "A web-based workout progress tracking application.",
         "Coming soon (summer 2025)",
         ""
