@@ -28,9 +28,9 @@ function HomePage() {
     return (
         <>
         <h1 className="text-center text-slate-800 mt-4 text-3xl font-bold">Home</h1>
-        <div className="flex flex-row h-full justify-center">
+        <div className="flex flex-col lg:flex-row h-full justify-center lg:items-start items-center">
             <InfoCard></InfoCard>
-            <div className="flex flex-col justify-center 2xl:w-2/5 w-1/2 h-full mr-4">
+            <div className="flex flex-col justify-center 2xl:w-2/5 lg:w-1/2 w-4/5 h-full mr-8 lg:mr-4 items:center">
                 <ArrayCard title={"Technologies 💻🛠️"} content={Technologies}></ArrayCard>
                 <ArrayCard title={"Languages 🧾"} content={Languages}></ArrayCard>
                 <HorizontalContainerCard title={"Notable Projects"} contents={Projects}></HorizontalContainerCard>

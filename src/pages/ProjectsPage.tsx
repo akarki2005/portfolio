@@ -45,7 +45,7 @@ function ProjectsPage() {
         <>
         <h1 className="text-center text-slate-800 m-4 text-3xl font-bold">Projects</h1>
         <p className="text-center text-slate-800 m-4 text-xl">Here you'll find a collection of my side projects, including past, present and future work.</p>
-        <div className="flex flex-row w-full justify-center">
+        <div className="flex md:flex-row flex-col w-full justify-center">
             <VerticalContainerCard title={"Complete ☑️"} contents={[PortfolioInfo, BarnBurnerInfo, FarmsburnerInfo]}></VerticalContainerCard>
             <VerticalContainerCard title={"In the Works ⚙️"} contents={[SwoleStatsInfo, IntersectionInfo]}></VerticalContainerCard>
         </div>

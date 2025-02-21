@@ -5,7 +5,7 @@ interface Props {
 function ILCardImage(props: Props) {
     return (
         <div className="flex h-full b-slate-100 pt-4">
-            <img className="w-full h-12 object-scale-down" src={props.image_path}></img>
+            <img className="w-full h-8 md:h-12 object-scale-down" src={props.image_path}></img>
         </div>
     )
 }
