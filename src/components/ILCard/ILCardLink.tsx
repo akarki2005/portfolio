@@ -8,7 +8,7 @@ interface Props {
 function ILCardLink(props: Props) {
     return (
         <div className="flex rounded-b-xl justify-center h-12 p-2">
-            <Link className="text-white md:text-base text-sm" to={props.link}>{props.link_name}</Link>
+            <Link className="text-white md:text-base text-xs" to={props.link}>{props.link_name}</Link>
         </div>
     )
 }
