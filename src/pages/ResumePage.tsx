@@ -7,7 +7,7 @@ function ResumePage() {
         <p className="text-center text-slate-800 m-4 text-xl">Click on the card below to download the latest version of my resume.</p>
         <div className="flex justify-center">
             <div className="md:w-1/2 w-5/6">
-            <ImageCard imgurl="./assets/images/resume.png" linkurl={"./assets/files/AayushKarki_Resume.pdf"}></ImageCard>
+            <ImageCard imgurl="./assets/images/resume_march17.PNG" linkurl={"./assets/files/aayush_karki_resume_software_developer.pdf"}></ImageCard>
             </div>
         </div>
         <p className="text-center text-slate-800 m-4 text-xl">*Current as of February 3rd, 2025.</p>
